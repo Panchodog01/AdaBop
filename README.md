@@ -7,9 +7,13 @@ Failing to do the action will reset the game and save any highscore that have be
 As your score gets higher the time to complete each action will get shorter
 
 The four actions are:
+
 Press it: Press either of the two buttons on the board
+
 Switch it: Switch the switch at the top of the board
+
 Shut it: Cover the light sensor by the left button
+
 Turn it: Flip the board upside down
 
 Youtube link for Demo:
