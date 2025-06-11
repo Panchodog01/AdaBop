@@ -135,6 +135,8 @@ void loop() {
       for (int i = 0; i <= 9; i++) {
         CircuitPlayground.setPixelColor(i, 0, 0, 255);
       }
+
+      // Intro melody
       analogWrite(A0, 10);
       CircuitPlayground.playTone(524, NOTE_1);
       CircuitPlayground.playTone(524, NOTE_1);
@@ -148,7 +150,6 @@ void loop() {
       CircuitPlayground.playTone(493, NOTE_2);
       CircuitPlayground.playTone(524, NOTE_2);
 
-      //Play lights and sound
       analogWrite(A0, 255);
       state = 1;
       break;
@@ -429,8 +430,10 @@ void leftInterrupt() {
   }
 }
 
+
+// Rainbow cycle from Kaleidoscope project
+// Credit to Chet Udell
 void rainbowCycle(int currentSpeed, int stripLen) {
-  // Rainbow cycle from Kaleidoscope project
 
   // Make an offset based on the current millisecond count scaled by the current speed.
 
