@@ -11,3 +11,6 @@ Press it: Press either of the two buttons on the board
 Switch it: Switch the switch at the top of the board
 Shut it: Cover the light sensor by the left button
 Turn it: Flip the board upside down
+
+Youtube link for Demo:
+https://youtu.be/0PmYVhHii2E
